@@ -9,9 +9,9 @@ Support this project by [becoming a sponsor](https://xmake.io/#/about/sponsor). 
 
 You can also consider sponsoring us to get extra technical support services via the [Github sponsor program](https://github.com/sponsors/waruqi). If you do, you can get access to the [xmake-io/technical-support](https://github.com/xmake-io/technical-support) repository, which has the following bennefits:
 
-- [X] Handling Issues with higher priority
-- [X] One-to-one technical consulting service
-- [X] Review your xmake.lua and provide suggestions for improvement
+- [x] Handling Issues with higher priority
+- [x] One-to-one technical consulting service
+- [x] Review your xmake.lua and provide suggestions for improvement
 
 ## Introduction
 
@@ -300,13 +300,13 @@ Below is a diagram showing roughly the architecture of Xmake, and thus how it fu
 
 ## Distributed Compilation
 
-- [X] Cross-platform support.
-- [X] Support for MSVC, Clang, GCC and other cross-compilation toolchains.
-- [X] Support for building for Android, Linux, Windows NT, and Darwin hosts.
-- [X] No dependencies other than the compilation toolchain.
-- [X] Support for build server load balancing scheduling.
-- [X] Support for real time compressed transfer of large files (lz4).
-- [X] Almost zero configuration cost, no shared filesystem required, for convenience and security.
+- [x] Cross-platform support.
+- [x] Support for MSVC, Clang, GCC and other cross-compilation toolchains.
+- [x] Support for building for Android, Linux, Windows NT, and Darwin hosts.
+- [x] No dependencies other than the compilation toolchain.
+- [x] Support for build server load balancing scheduling.
+- [x] Support for real time compressed transfer of large files (lz4).
+- [x] Almost zero configuration cost, no shared filesystem required, for convenience and security.
 
 For more details see: [#274](https://github.com/xmake-io/xmake/issues/274)
 
@@ -324,9 +324,8 @@ Xmake's speed on is par with Ninja! The test project: [xmake-core](https://githu
 
 ### Multi-task parallel compilation
 
-
 | buildsystem      | Termux (8core/-j12) | buildsystem      | MacOS (8core/-j12) |
-| ------------------ | --------------------- | ------------------ | -------------------- |
+| ---------------- | ------------------- | ---------------- | ------------------ |
 | xmake            | 24.890s             | xmake            | 12.264s            |
 | ninja            | 25.682s             | ninja            | 11.327s            |
 | cmake(gen+make)  | 5.416s+28.473s      | cmake(gen+make)  | 1.203s+14.030s     |
@@ -334,9 +333,8 @@ Xmake's speed on is par with Ninja! The test project: [xmake-core](https://githu
 
 ## Single task compilation
 
-
 | buildsystem      | Termux (-j1)     | buildsystem      | MacOS (-j1)    |
-| ------------------ | ------------------ | ------------------ | ---------------- |
+| ---------------- | ---------------- | ---------------- | -------------- |
 | xmake            | 1m57.707s        | xmake            | 39.937s        |
 | ninja            | 1m52.845s        | ninja            | 38.995s        |
 | cmake(gen+make)  | 5.416s+2m10.539s | cmake(gen+make)  | 1.203s+41.737s |
